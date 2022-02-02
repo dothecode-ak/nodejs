@@ -1,0 +1,10 @@
+const { add, data } = require("./app");
+const fileData = require("./core-modules");
+require("colors");
+console.log("App is running".rainbow);
+console.log(add(2, 3));
+console.log(data);
+let result = data.filter((data) => data === "anil");
+console.log(result);
+console.log(fileData);
+console.log(__dirname);
